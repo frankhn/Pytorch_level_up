@@ -14,8 +14,6 @@ z = torch.add(x,y)
 
 
 # reshaping a tensor
-
-
 x = torch.rand(4, 4)
 
 y = x.view(-1, 8)
